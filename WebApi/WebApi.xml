@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApi</name>
+    </assembly>
+    <members>
+        <member name="T:WebApi.Controllers.ValuesController">
+            <summary>
+            Values
+            </summary>
+        </member>
+        <member name="M:WebApi.Controllers.ValuesController.Add(Microsoft.AspNetCore.Mvc.ActionResult)">
+            <summary>
+            Add
+            </summary>
+            <param name="actionResult">actionResult</param>
+            <returns>结果</returns>
+        </member>
+        <member name="M:WebApi.Controllers.ValuesController.Get(System.Int32)">
+            <summary>
+            Get by id
+            </summary>
+            <param name="id">id</param>
+            <returns>结果</returns>
+        </member>
+        <member name="M:WebApi.Controllers.ValuesController.Get">
+            <summary>
+            Get list
+            </summary>
+            <returns>结果</returns>
+        </member>
+        <member name="M:WebApi.Controllers.ValuesController.Update(Microsoft.AspNetCore.Mvc.ActionResult)">
+            <summary>
+            Update
+            </summary>
+            <param name="actionResult">actionResult</param>
+            <returns>结果</returns>
+        </member>
+        <member name="M:WebApi.Middleware.SwaggerBuilderExtension.UseSwaggerApiDoc(Microsoft.AspNetCore.Builder.IApplicationBuilder,System.Net.Http.IHttpClientFactory,System.Action{WebApi.Middleware.ApiDocOptions})">
+            <summary>
+            使用swagger生成文档并发送到文档中心
+            </summary>
+            <param name="builder">IApplicationBuilder</param>
+            <param name="options">options 配置</param>
+            <param name="httpClientFactory">httpClientFactory</param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Middleware.SwaggerBuilderExtension.GenerateApiDocFile(WebApi.Middleware.ApiDocOptions)">
+            <summary>
+            生成api文档
+            </summary>
+            <param name="option"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            启动项构造
+            </summary>
+            <param name="configuration">配置文件</param>
+        </member>
+        <member name="P:WebApi.Startup.Configuration">
+            <summary>
+            配置文件
+            </summary>
+        </member>
+    </members>
+</doc>
